@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Assignment Notification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header, .footer {
+            text-align: center;
+        }
+        .header img {
+            width: 150px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .content h4 {
+            margin-top: 0;
+        }
+        .details, .instructions {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+        .details ul, .instructions ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .details li, .instructions li {
+            margin-bottom: 10px;
+        }
+        .details img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- Add your logo here -->
+            <img src="http://localhost:3000/logo.png" alt="Buzzway Logo">
+        </div>
+        <div class="content">
+            <h4>Driver Assignment Notification</h4>
+            <p>Dear <strong>[Customer’s Name]</strong>,</p>
+            <p>We are pleased to inform you that a driver has been assigned for your upcoming trip with Buzzway. Below are the details of your driver and trip:</p>
+
+            <div class="details">
+                <h4>Driver and Trip Details</h4>
+                <ul>
+                    <li><strong>Driver’s Name:</strong> [Driver’s Name]</li>
+                    <li><strong>Vehicle:</strong> [Vehicle Details]</li>
+                    <li><strong>Pickup Location:</strong> [Pickup Location]</li>
+                    <li><strong>Drop-off Location:</strong> [Drop-off Location]</li>
+                    <li><strong>Date and Time:</strong> [Date and Time]</li>
+                    <li><strong>Contact Number:</strong> [Driver’s Contact Number]</li>
+                </ul>
+                <!-- Add your driver image here -->
+                <!-- <img src="path_to_your_driver_image" alt="Driver"> -->
+            </div>
+
+            <div class="instructions">
+                <h4>Important Instructions</h4>
+                <ul>
+                    <li>Please be ready at the pickup location at least 10 minutes before the scheduled time.</li>
+                    <li>If you have any special requirements or instructions for the driver, feel free to communicate them directly.</li>
+                    <li>If you encounter any issues or need to make changes to your trip, please contact our support team at [Support Team Contact Number].</li>
+                </ul>
+            </div>
+
+            <p>We look forward to providing you with a safe and comfortable journey. Should you have any questions or need further assistance, do not hesitate to reach out.</p>
+            <p>Thank you for choosing Buzzway.</p>
+
+            <p>Best regards,</p>
+            <p><strong>[Your Name]</strong><br />
+                [Your Position]<br />
+                Buzzway Logistics<br />
+                [Your Contact Information]</p>
+        </div>
+        <div class="footer">
+            <a href="tel:[Support Team Contact Number]" class="button">Contact Support Team</a>
+        </div>
+    </div>
+</body>
+</html>

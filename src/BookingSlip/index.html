@@ -1,0 +1,87 @@
+let html = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Booking Cancellation - Buzzway</title>
+<style>
+body {
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4;
+ margin: 0;
+ padding: 0;
+}
+.container {
+ width: 80%;
+ max-width: 600px;
+ margin: 20px auto;
+ background-color: #ffffff;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ border-radius: 8px;
+ overflow: hidden;
+}
+.header {
+ background-color: #ff6600;
+ color: #ffffff;
+ padding: 20px;
+ text-align: center;
+}
+.header img {
+ max-width: 150px;
+}
+.content {
+ padding: 20px;
+ color: #333333;
+}
+.content h1 {
+ color: #ff6600;
+}
+.content p {
+ line-height: 1.6;
+}
+.footer {
+ background-color: #f4f4f4;
+ padding: 20px;
+ text-align: center;
+ color: #888888;
+ font-size: 14px;
+}
+.footer a {
+ color: #ff6600;
+ text-decoration: none;
+}
+.footer img {
+ max-width: 50px;
+ margin: 0 10px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+ <img src="${BASEURL}img/logo.png" alt="Buzzway Logo">
+</div>
+<div class="content">
+ <h1>Booking Cancellation Confirmation</h1>
+ <p>Dear ${BookingDetais.data.user_name},</p>
+ <p>We regret to inform you that your booking with Buzzway has been cancelled. Below are the details of your booking:</p>
+ <ul>
+     <li><strong>Booking ID:</strong>BookingDetais.data.booking_id</li>
+     <li><strong>Pickup Date & Time:</strong> BookingDetais.data.pickup_date</li>
+     <li><strong>Pickup Location:</strong> BookingDetais.data.from_city</li>
+     <li><strong>Drop-off Location:</strong> BookingDetais.data.travel_route</li>
+ </ul>
+ <p>We apologize for any inconvenience this may have caused. If you have any questions or need further assistance, please feel free to contact our support team.</p>
+ <p>Thank you for choosing Buzzway. We hope to serve you again in the future.</p>
+</div>
+<div class="footer">
+ <p>Stay connected with us:</p>
+ <a href="https://www.facebook.com/buzzway"><img src="path/to/facebook-icon.png" alt="Facebook"></a>
+ <a href="https://www.twitter.com/buzzway"><img src="path/to/twitter-icon.png" alt="Twitter"></a>
+ <a href="https://www.instagram.com/buzzway"><img src="path/to/instagram-icon.png" alt="Instagram"></a>
+ <p>&copy; 2024 Buzzway. All rights reserved.</p>
+</div>
+</div>
+</body>
+</html>`;

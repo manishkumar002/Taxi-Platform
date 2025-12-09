@@ -1,0 +1,7 @@
+/* .datePickerStyling {
+    z-index: 9999999;
+} */
+
+.react-datepicker-popper {
+    z-index: 9999999;
+}
