@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Bike Taxi Platform 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bike Taxi Platform is an online on-demand bike-taxi and micro-mobility platform, similar to Rapido.
+Users can book instant rides, track drivers in real-time, and make secure payments — all through a simple and fast React.js interface
 
-## Available Scripts
+## 🚀 Features (User App)
 
-In the project directory, you can run:
+Quick ride booking (Pickup → Destination)
 
-### `npm start`
+Fare estimation before booking
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Real-time driver tracking on map
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Driver details, ETA, and bike information
 
-### `npm test`
+Multiple payment options (UPI, Wallet, Card, Cash)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ride history and digital invoices
 
-### `npm run build`
+Ratings and feedback system
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Multi-language support (English / Hindi)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+SOS & trip-sharing safety features
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 🛵 Driver App Features
+Driver onboarding & KYC upload
 
-### `npm run eject`
+Accept / Reject ride requests
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Live navigation using Google Maps / Mapbox
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Earnings dashboard with daily payouts
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Performance metrics & ratings
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Notifications for new rides and incentives
 
-## Learn More
+### ⚙️ How It Works
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+User opens the Buzzay web/app and enables location.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Enters pickup & destination → gets fare estimate.
 
-### Code Splitting
+Nearest drivers receive the request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+A driver accepts → user sees driver details & bike number.
 
-### Analyzing the Bundle Size
+User tracks live location until the driver arrives.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After trip end → payment + rating.
