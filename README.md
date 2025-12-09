@@ -1,6 +1,6 @@
-## 🚖 Buzzay – Bike Taxi Platform (React.js)
+## 🚖 Bike Taxi Platform (React.js)
 
-Buzzay is an online on-demand bike taxi & micro-mobility platform, similar to Rapido.
+Taxi is an online on-demand bike taxi & micro-mobility platform, similar to Rapido.
 Users can instantly book rides, track the driver in real-time, and make secure payments — all inside a fast and smooth React.js application.
 
 **🚀 User App Features**
@@ -104,6 +104,6 @@ Backend API for rides, drivers, and payments
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to improve.
 
-📄 License
+**📄 License**
 
 This project is open-source.
