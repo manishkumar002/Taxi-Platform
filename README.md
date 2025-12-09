@@ -1,4 +1,4 @@
-## 🚖 Bike Taxi Platform (React.js)
+## 🚖 Bike Taxi Platform
 
 Taxi is an online on-demand bike taxi & micro-mobility platform, similar to Rapido.
 Users can instantly book rides, track the driver in real-time, and make secure payments — all inside a fast and smooth React.js application.
@@ -81,6 +81,7 @@ npm run build
 ```
 
 **📁 Project Structure**
+```base
 /src
   /components
   /pages
@@ -89,6 +90,7 @@ npm run build
   /context
   App.js
   index.js
+```
 
 **✔️ Requirements**
 
