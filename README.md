@@ -57,7 +57,7 @@ Follow these steps to download and run the project on your system:
 
 **1️⃣ Clone the Repository**
 ```base
-git clone https://github.com/your-username/buzzay-bike-taxi.git
+[git clone https://github.com/your-username/buzzay-bike-taxi.git](https://github.com/manishkumar002/Taxi-Platform.git)
 ```
 
 **2️⃣ Move Inside the Project Folder**
